@@ -3,15 +3,15 @@ server:
 application:
   domain: juice-sh.op
   name: 'OWASP Juice Shop'
-  logo: JuiceShop_Logo.png
-  favicon: favicon_v2.ico
+  logo: JuiceShopCTF_Logo.png
+  favicon: favicon_ctf.ico
   numberOfRandomFakeUsers: 0
   showChallengeSolvedNotifications: true
-  showCtfFlagsInNotifications: false
-  showChallengeHints: true
-  showVersionNumber: true
+  showCtfFlagsInNotifications: true
+  showChallengeHints: false
+  showVersionNumber: false
   theme: slate # Options: cerulean  cosmo  cyborg  darkly  flatly lumen  paper  readable  sandstone  simplex  slate  spacelab  superhero  united  yeti
-  gitHubRibbon: orange # Options: darkblue  gray  green  orange  red  white  none
+  gitHubRibbon: none # Options: darkblue  gray  green  orange  red  white  none
   twitterUrl: 'https://twitter.com/owasp_juiceshop'
   facebookUrl: 'https://www.facebook.com/owasp.juiceshop'
   planetOverlayMap: orangemap2k.jpg
